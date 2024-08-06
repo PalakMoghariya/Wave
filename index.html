@@ -6,19 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wave | HomePage</title>
     <link rel="stylesheet" href="src/output.css">
+    <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playwrite+BE+WAL:wght@100..400&family=Satisfy&display=swap" rel="stylesheet">
+
+    <!-- google-font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+BE+WAL:wght@100..400&family=Satisfy&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header class="hedaer1">
-        <nav class="navbar navbar-expand-lg">
+    <header class="header1">
+        <nav class="navbar navbar-expand-lg fixed fixed-top tw-bg-blue-100">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img
                         src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/branding/wave-logo.svg"
@@ -68,14 +72,14 @@
                 <div
                     class="lg:tw-flex-grow md:tw-w-1/2 lg:tw-pr-24 md:tw-pr-16 tw-flex tw-flex-col md:tw-items-start md:tw-text-left tw-mb-16 md:tw-mb-0 tw-items-center tw-text-center">
                     <h1
-                        class="tw-title-font sm:tw-text-4xl tw-text-7xl tw-mb-4 tw-font-7xl tw-font-bold tw-text-gray-900">
+                        class="tw-title-font sm:tw-text-4xl tw-text-7xl tw-mb-4 tw-font-7xl tw-font-bold tw-text-gray-900 max-sm:tw-text-xl">
                         We provide easy
                         <br class="tw-hidden lg:tw-inline-block" />
                         solutions for startups
                         <br class="tw-hidden lg:tw-inline-block" />
                         at affordable rates.
                     </h1>
-                    <p class="tw-mb-8 tw-leading-relaxed tw-text-2xl">
+                    <p class="tw-mb-8  tw-text-2xl">
                         Our methods are straight, comfortable, and established to
                         <br class="tw-hidden lg:tw-inline-block" />ensure evolution and acceleration.
                     </p>
@@ -94,137 +98,988 @@
                 </div>
             </div>
         </section>
-
-
     </header>
 
     <main>
-            <section id="scrollspyServices" class="py-5 py-xl-8 bsb-section-py-xxl-1">
-                <div class="container mb-5 mb-md-6 mb-xl-10">
-                    <div class="row justify-content-md-center">
-                        <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
-                            <h2 class="display-3 fw-bolder mb-4">You will get the <br>perfect <span
-                                    class="font-family">resolutions</span> with our
-                                proficient services.</h2>
+        <section id="scrollspyServices" class="py-5 py-xl-8 bsb-section-py-xxl-1">
+            <div class="container mb-5 mb-md-6 mb-xl-10">
+                <div class="row justify-content-md-center">
+                    <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
+                        <h2 class="display-3 fw-bolder mb-4">You will get the <br>perfect <span
+                                class="font-family">resolutions</span> with our
+                            proficient services.</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container overflow-hidden">
+                <div class="row gy-5 gx-md-4 gy-lg-0 gx-xxl-5 justify-content-center">
+                    <div class="col-11 col-sm-6 col-lg-3">
+                        <div class="badge bsb-tpl-bg-yellow text-primary p-3 mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                                class="bi bi-pie-chart" viewBox="0 0 16 16">
+                                <path
+                                    d="M7.5 1.018a7 7 0 0 0-4.79 11.566L7.5 7.793V1.018zm1 0V7.5h6.482A7.001 7.001 0 0 0 8.5 1.018zM14.982 8.5H8.207l-4.79 4.79A7 7 0 0 0 14.982 8.5zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h4 class="mb-3">Market Research</h4>
+                        <p class="mb-3 text-secondary">We can help you to understand your target market and identify
+                            new opportunities for growth. We offer a variety of market research services,
+                            interviews, and focus groups.</p>
+                        <a href="#!" class="fw-bold text-decoration-none link-primary">
+                            Learn More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right-short tw-inline" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="col-11 col-sm-6 col-lg-3">
+                        <div class="badge bsb-tpl-bg-green text-primary p-3 mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                                class="bi bi-aspect-ratio" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z">
+                                </path>
+                                <path
+                                    d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h4 class="mb-3">Web Design</h4>
+                        <p class="mb-3 text-secondary">We can help you to create a visually appealing and
+                            user-friendly website. We take into account your brand identity and target audience when
+                            designing your website.</p>
+                        <a href="#!" class="fw-bold text-decoration-none link-primary">
+                            Learn More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right-short tw-inline" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="col-11 col-sm-6 col-lg-3">
+                        <div class="badge bsb-tpl-bg-pink text-primary p-3 mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                                class="bi bi-airplane-engines" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0c-.787 0-1.292.592-1.572 1.151A4.347 4.347 0 0 0 6 3v3.691l-2 1V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.191l-1.17.585A1.5 1.5 0 0 0 0 10.618V12a.5.5 0 0 0 .582.493l1.631-.272.313.937a.5.5 0 0 0 .948 0l.405-1.214 2.21-.369.375 2.253-1.318 1.318A.5.5 0 0 0 5.5 16h5a.5.5 0 0 0 .354-.854l-1.318-1.318.375-2.253 2.21.369.405 1.214a.5.5 0 0 0 .948 0l.313-.937 1.63.272A.5.5 0 0 0 16 12v-1.382a1.5 1.5 0 0 0-.83-1.342L14 8.691V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v.191l-2-1V3c0-.568-.14-1.271-.428-1.849C9.292.591 8.787 0 8 0ZM7 3c0-.432.11-.979.322-1.401C7.542 1.159 7.787 1 8 1c.213 0 .458.158.678.599C8.889 2.02 9 2.569 9 3v4a.5.5 0 0 0 .276.447l5.448 2.724a.5.5 0 0 1 .276.447v.792l-5.418-.903a.5.5 0 0 0-.575.41l-.5 3a.5.5 0 0 0 .14.437l.646.646H6.707l.647-.646a.5.5 0 0 0 .14-.436l-.5-3a.5.5 0 0 0-.576-.411L1 11.41v-.792a.5.5 0 0 1 .276-.447l5.448-2.724A.5.5 0 0 0 7 7V3Z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h4 class="mb-3">SEO Services</h4>
+                        <p class="mb-3 text-secondary">We can help you to improve your website's visibility in
+                            search engine results pages (SERPs). This can lead to more traffic to your website and
+                            more conversions.</p>
+                        <a href="#!" class="fw-bold text-decoration-none link-primary">
+                            Learn More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right-short tw-inline" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="col-11 col-sm-6 col-lg-3">
+                        <div class="badge bsb-tpl-bg-cyan text-primary p-3 mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                                class="bi bi-alarm" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z">
+                                </path>
+                                <path
+                                    d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h4 class="mb-3">Content Marketing</h4>
+                        <p class="mb-3 text-secondary">We can help you to promote your business online through a
+                            variety of digital marketing channels, including SEO, PPC, social media marketing, and
+                            email marketing.</p>
+                        <a href="#!" class="fw-bold text-decoration-none link-primary">
+                            Learn More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right-short tw-inline" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section2"></section>
+        <div
+            class="container tw-text-7xl max-sm:tw-w-screen max-sm:tw-text-4xl tw-text-white tw-font-extrabold div-text">
+            <span class="tw-text-2xl span2">UNLOCK FRESH PROSPECTS</span><br class="tw-inline-block" />
+            We are a design agency <br class="tw-hidden lg:tw-inline-block" />
+            studio delivering custom <br class="tw-hidden lg:tw-inline-block" />
+            creative & unique <br class="tw-hidden lg:tw-inline-block" />
+            websites. <br class="tw-hidden lg:tw-inline-block" />
+            <button
+                class="tw-border-solid tw-block tw-text-2xl tw-rounded-xl tw-font-medium tw-p-5 tw-bg-red-800 tw-text-white hover:tw-bg-white hover:tw-text-red-800 hover:tw-border-red-800 hover:tw-border-solid tw-mt-16 tw-duration-700">
+                Join Us</button>
+        </div>
+
+        <section class="tw-pt-14 tw-mt-14">
+            <div class="container tw-text-7xl tw-font-bold tw-text-center">
+                Meet our portfolio to <br class="tw-hidden lg:tw-inline-block" />
+                <span class="font-family tw-text-4xl">kickstart </span> your success.
+            </div>
+        </section>
+
+        <section class="tw-text-gray-600 tw-body-font tw-mt-20">
+            <div
+                class="tw-flex tw-justify-between container custom-width-div max-sm:tw-block tw-text-center div-gallary">
+                <div>
+                    <div class="tw-w-96 tw-rounded-2xl tw-relative tw-overflow-hidden div-main tw-mb-4">
+                        <img alt="gallery" class="tw-w-full div-img"
+                            src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/portfolio/project-landscape-1.jpg">
+                        <div
+                            class="tw-w-full tw-h-full tw-bg-black tw-text-white tw-absolute tw-z-10 tw-top-0 tw-right-0 tw-flex tw-items-center tw-justify-center tw-flex-col div-sub">
+                            <h2 class="">Canvas Lover</h2>
+                            <p class="">Photography</p>
+                        </div>
+                    </div>
+
+                    <div class="tw-w-96 tw-rounded-2xl tw-relative tw-overflow-hidden div-main tw-mb-4">
+                        <img alt="gallery" class="tw-w-full div-img"
+                            src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/portfolio/project-portrait-2.jpg">
+                        <div
+                            class="tw-w-full tw-h-full tw-bg-black tw-text-white tw-absolute tw-z-10 tw-top-0 tw-right-0 tw-flex tw-items-center tw-justify-center tw-flex-col div-sub">
+                            <h2 class="">Wavy Road</h2>
+                            <p class="">Adventure</p>
+                        </div>
+                    </div>
+
+                    <div class="tw-w-96 tw-rounded-2xl tw-relative tw-overflow-hidden div-main tw-mb-4">
+                        <img alt="gallery" class="tw-w-full div-img"
+                            src=" https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/portfolio/project-landscape-3.jpg">
+                        <div
+                            class="tw-w-full tw-h-full tw-bg-black tw-text-white tw-absolute tw-z-10 tw-top-0 tw-right-0 tw-flex tw-items-center tw-justify-center tw-flex-col div-sub">
+                            <h2 class="">Bright Winks</h2>
+                            <p class="">Design</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="container overflow-hidden">
-                    <div class="row gy-5 gx-md-4 gy-lg-0 gx-xxl-5 justify-content-center">
-                        <div class="col-11 col-sm-6 col-lg-3">
-                            <div class="badge bsb-tpl-bg-yellow text-primary p-3 mb-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
-                                    class="bi bi-pie-chart" viewBox="0 0 16 16">
-                                    <path
-                                        d="M7.5 1.018a7 7 0 0 0-4.79 11.566L7.5 7.793V1.018zm1 0V7.5h6.482A7.001 7.001 0 0 0 8.5 1.018zM14.982 8.5H8.207l-4.79 4.79A7 7 0 0 0 14.982 8.5zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z">
-                                    </path>
-                                </svg>
-                            </div>
-                            <h4 class="mb-3">Market Research</h4>
-                            <p class="mb-3 text-secondary">We can help you to understand your target market and identify
-                                new opportunities for growth. We offer a variety of market research services,
-                                interviews, and focus groups.</p>
-                            <a href="#!" class="fw-bold text-decoration-none link-primary">
-                                Learn More
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z">
-                                    </path>
-                                </svg>
-                            </a>
+
+                <div>
+                    <div class="tw-w-96 tw-rounded-2xl tw-relative tw-overflow-hidden div-main tw-mb-4">
+                        <img alt="gallery" class="tw-w-full div-img"
+                            src="
+                                https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/portfolio/project-portrait-1.jpg">
+                        <div
+                            class="tw-w-full tw-h-full tw-bg-black tw-text-white tw-absolute tw-z-10 tw-top-0 tw-right-0 tw-flex tw-items-center tw-justify-center tw-flex-col div-sub">
+                            <h2 class="">Red Lava</h2>
+                            <p class="">Nature</p>
                         </div>
-                        <div class="col-11 col-sm-6 col-lg-3">
-                            <div class="badge bsb-tpl-bg-green text-primary p-3 mb-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
-                                    class="bi bi-aspect-ratio" viewBox="0 0 16 16">
-                                    <path
-                                        d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z">
-                                    </path>
-                                    <path
-                                        d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z">
-                                    </path>
-                                </svg>
-                            </div>
-                            <h4 class="mb-3">Web Design</h4>
-                            <p class="mb-3 text-secondary">We can help you to create a visually appealing and
-                                user-friendly website. We take into account your brand identity and target audience when
-                                designing your website.</p>
-                            <a href="#!" class="fw-bold text-decoration-none link-primary">
-                                Learn More
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z">
-                                    </path>
-                                </svg>
-                            </a>
+                    </div>
+
+
+                    <div class="tw-w-96 tw-rounded-2xl tw-relative tw-overflow-hidden div-main tw-mb-4">
+                        <img alt="gallery" class="tw-w-full div-img"
+                            src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/portfolio/project-portrait-4.jpg">
+                        <div
+                            class="tw-w-full tw-h-full tw-bg-black tw-text-white tw-absolute tw-z-10 tw-top-0 tw-right-0 tw-flex tw-items-center tw-justify-center tw-flex-col div-sub">
+                            <h2 class="">Minimal Notice</h2>
+                            <p class="">Design</p>
                         </div>
-                        <div class="col-11 col-sm-6 col-lg-3">
-                            <div class="badge bsb-tpl-bg-pink text-primary p-3 mb-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
-                                    class="bi bi-airplane-engines" viewBox="0 0 16 16">
-                                    <path
-                                        d="M8 0c-.787 0-1.292.592-1.572 1.151A4.347 4.347 0 0 0 6 3v3.691l-2 1V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.191l-1.17.585A1.5 1.5 0 0 0 0 10.618V12a.5.5 0 0 0 .582.493l1.631-.272.313.937a.5.5 0 0 0 .948 0l.405-1.214 2.21-.369.375 2.253-1.318 1.318A.5.5 0 0 0 5.5 16h5a.5.5 0 0 0 .354-.854l-1.318-1.318.375-2.253 2.21.369.405 1.214a.5.5 0 0 0 .948 0l.313-.937 1.63.272A.5.5 0 0 0 16 12v-1.382a1.5 1.5 0 0 0-.83-1.342L14 8.691V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v.191l-2-1V3c0-.568-.14-1.271-.428-1.849C9.292.591 8.787 0 8 0ZM7 3c0-.432.11-.979.322-1.401C7.542 1.159 7.787 1 8 1c.213 0 .458.158.678.599C8.889 2.02 9 2.569 9 3v4a.5.5 0 0 0 .276.447l5.448 2.724a.5.5 0 0 1 .276.447v.792l-5.418-.903a.5.5 0 0 0-.575.41l-.5 3a.5.5 0 0 0 .14.437l.646.646H6.707l.647-.646a.5.5 0 0 0 .14-.436l-.5-3a.5.5 0 0 0-.576-.411L1 11.41v-.792a.5.5 0 0 1 .276-.447l5.448-2.724A.5.5 0 0 0 7 7V3Z">
-                                    </path>
-                                </svg>
-                            </div>
-                            <h4 class="mb-3">SEO Services</h4>
-                            <p class="mb-3 text-secondary">We can help you to improve your website's visibility in
-                                search engine results pages (SERPs). This can lead to more traffic to your website and
-                                more conversions.</p>
-                            <a href="#!" class="fw-bold text-decoration-none link-primary">
-                                Learn More
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z">
-                                    </path>
-                                </svg>
-                            </a>
+                    </div>
+
+                </div>
+
+                <div>
+
+                    <div class="tw-w-96 tw-rounded-2xl tw-relative tw-overflow-hidden div-main tw-mb-4">
+                        <img alt="gallery" class="tw-w-full div-img"
+                            src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/portfolio/project-landscape-2.jpg">
+                        <div
+                            class="tw-w-full tw-h-full tw-bg-black tw-text-white tw-absolute tw-z-10 tw-top-0 tw-right-0 tw-flex tw-items-center tw-justify-center tw-flex-col div-sub">
+                            <h2 class="">Jungle Book</h2>
+                            <p class="">Advanture</p>
                         </div>
-                        <div class="col-11 col-sm-6 col-lg-3">
-                            <div class="badge bsb-tpl-bg-cyan text-primary p-3 mb-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
-                                    class="bi bi-alarm" viewBox="0 0 16 16">
-                                    <path
-                                        d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z">
-                                    </path>
-                                    <path
-                                        d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z">
-                                    </path>
-                                </svg>
+                    </div>
+
+                    <div class="tw-w-96 tw-rounded-2xl tw-relative tw-overflow-hidden div-main tw-mb-4">
+                        <img alt="gallery" class="tw-w-full div-img"
+                            src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/portfolio/project-portrait-3.jpg">
+                        <div
+                            class="tw-w-full tw-h-full tw-bg-black tw-text-white tw-absolute tw-z-10 tw-top-0 tw-right-0 tw-flex tw-items-center tw-justify-center tw-flex-col div-sub">
+                            <h2 class="">Golden Leaves</h2>
+                            <p class="">Photography</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="tw-w-96 tw-rounded-2xl tw-relative tw-overflow-hidden div-main tw-mb-4">
+                        <img alt="gallery" class="tw-w-full div-img"
+                            src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/portfolio/project-landscape-4.jpg">
+                        <div
+                            class="tw-w-full tw-h-full tw-bg-black tw-text-white tw-absolute tw-z-10 tw-top-0 tw-right-0 tw-flex tw-items-center tw-justify-center tw-flex-col div-sub">
+                            <h2 class="">Innovative Day</h2>
+                            <p class="">Photography</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tw-text-black tw-body-font section3">
+            <div
+                class="container tw-mx-auto tw-flex tw-px-5 tw-py-24 md:tw-flex-row tw-flex-col tw-mb-16 md:tw-mb-0 md:tw-w-full tw-items-center tw-text-center lg:tw-pr-24 md:tw-pr-16">
+                <div class="tw-sm:max-w-lg :w-1/2 w-5/6 mb-10 md:mb-0">
+                    <img class="object-cover rounded tw-h-full" alt="hero"
+                        src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/about/about-img-1.png">
+                </div>
+                <div
+                    class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center tw-text-black">
+                    <h1 class="tw-sm:text-4xl tw-text-5xl tw-mb-4 tw-font-medium tw-text-black">Our <span
+                            class="font-family tw-text-5xl">optimistic</span>
+                        <br class="tw-hidden lg:tw-inline-block" />
+                        methods will let
+                        <br class="tw-hidden lg:tw-inline-block" />
+                        you prefer us.
+                    </h1>
+                    <p class="mb-8 leading-relaxed tw-text-3xl tw-text-black">Here are the leading reasons to prefer us
+                        for<br class="tw-hidden lg:tw-inline-block" /> your brand. We believe in transparency without
+                        any hidden barriers.</p>
+                </div>
+            </div>
+
+            <!-- accordian -->
+            <div class="accordion md:tw-w-1/2 -tw-mt-24 custom-ml2 md:tw-flex-row tw-flex-col" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Highy Compititive Rates
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            We offer some of the most competitive rates in the industry, without sacrificing quality. We
+                            understand that cost is an important factor when choosing a service provider, and we are
+                            committed to providing our clients with the best possible value for their money.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Contemporary Skills
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Our team is made up of highly skilled and experienced professionals who are up-to-date on
+                            the latest trends and technologies. We are constantly investing in our team's development to
+                            ensure that we can provide our clients with the highest level of service.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Top Notch Support
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            We are committed to providing our clients with top-notch support. Our team is available 24/7
+                            to answer your questions and resolve any issues you may encounter. We believe that our
+                            support is one of our greatest strengths, and we are proud to offer it to our clients.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="tw-text-gray-600 tw-body-font tw-text-center">
+                <div class="container tw-px-5 tw-py-24 tw-mx-auto">
+                    <div class="tw-flex tw-flex-wrap tw--m-4 tw-text-center">
+                        <div class="tw-p-4 md:tw-w-1/4 sm:tw-w-1/2 tw-w-56 custom-auto">
+                            <div class="tw-border-2 tw-bg-white tw-border-gray-200 tw-h-48 tw-rounded-lg tw-pt-6">
+                                <div class="tw-rounded-full tw-w-14 tw-bg-yellow-100 tw-p-3 custom-div-m">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="blue" class="bi bi-person-add"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0Zm-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z">
+                                        </path>
+                                        <path
+                                            d="M8.256 14a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <h2 class="tw-title-font tw-font-medium tw-text-3xl tw-text-gray-900">120K</h2>
+                                <p class="tw-leading-relaxed">Happy Customer</p>
                             </div>
-                            <h4 class="mb-3">Content Marketing</h4>
-                            <p class="mb-3 text-secondary">We can help you to promote your business online through a
-                                variety of digital marketing channels, including SEO, PPC, social media marketing, and
-                                email marketing.</p>
-                            <a href="#!" class="fw-bold text-decoration-none link-primary">
-                                Learn More
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z">
-                                    </path>
-                                </svg>
-                            </a>
+                        </div>
+
+                        <div class="tw-p-4 md:tw-w-1/4 sm:tw-w-1/2 tw-w-56 custom-auto">
+                            <div class="tw-border-2 tw-bg-white tw-border-gray-200 tw-px-4 tw-py-6 tw-rounded-lg">
+                                <div class="tw-rounded-full tw-w-14 tw-bg-green-200 tw-p-3 custom-div-m">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="blue" class="bi bi-heart-pulse"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053.918 3.995.78 5.323 1.508 7H.43c-2.128-5.697 4.165-8.83 7.394-5.857.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17c3.23-2.974 9.522.159 7.394 5.856h-1.078c.728-1.677.59-3.005.108-3.947C13.486.878 10.4.28 8.717 2.01L8 2.748ZM2.212 10h1.315C4.593 11.183 6.05 12.458 8 13.795c1.949-1.337 3.407-2.612 4.473-3.795h1.315c-1.265 1.566-3.14 3.25-5.788 5-2.648-1.75-4.523-3.434-5.788-5Z">
+                                        </path>
+                                        <path
+                                            d="M10.464 3.314a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.5a.5.5 0 0 0 0 1H4a.5.5 0 0 0 .416-.223l1.473-2.209 1.647 4.118a.5.5 0 0 0 .945-.049l1.598-5.593 1.457 3.642A.5.5 0 0 0 12 9h3.5a.5.5 0 0 0 0-1h-3.162l-1.874-4.686Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <h2 class="tw-title-font tw-font-medium tw-text-3xl tw-text-gray-900">1890+</h2>
+                                <p class="tw-leading-relaxed">Issue Solved</p>
+                            </div>
+                        </div>
+                        <div class="tw-p-4 md:tw-w-1/4 sm:tw-w-1/2 tw-w-56 custom-auto">
+                            <div class="tw-border-2 tw-bg-white tw-border-gray-200 tw-px-4 tw-py-6 tw-rounded-lg">
+                                <div class="tw-rounded-full tw-w-14 tw-bg-pink-100 tw-p-3 custom-div-m">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="blue"
+                                        class="bi bi-droplet" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z">
+                                        </path>
+                                        <path fill-rule="evenodd"
+                                            d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <h2 class="tw-title-font tw-font-medium tw-text-3xl tw-text-gray-900">250k</h2>
+                                <p class="tw-leading-relaxed sm:tw-font-medium">Finished Projects</p>
+                            </div>
+                        </div>
+                        <div class="tw-p-4 md:tw-w-1/4 sm:tw-w-1/2 tw-w-56 custom-auto      ">
+                            <div class="tw-border-2 tw-bg-white tw-border-gray-200 tw-px-4 tw-py-6 tw-rounded-lg">
+                                <div class="tw-rounded-full tw-w-14 tw-bg-sky-100 tw-p-3 custom-div-m">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="blue"
+                                        class="bi bi-cloud-moon" viewBox="0 0 16 16">
+                                        <path
+                                            d="M7 8a3.5 3.5 0 0 1 3.5 3.555.5.5 0 0 0 .625.492A1.503 1.503 0 0 1 13 13.5a1.5 1.5 0 0 1-1.5 1.5H3a2 2 0 1 1 .1-3.998.5.5 0 0 0 .509-.375A3.502 3.502 0 0 1 7 8zm4.473 3a4.5 4.5 0 0 0-8.72-.99A3 3 0 0 0 3 16h8.5a2.5 2.5 0 0 0 0-5h-.027z">
+                                        </path>
+                                        <path
+                                            d="M11.286 1.778a.5.5 0 0 0-.565-.755 4.595 4.595 0 0 0-3.18 5.003 5.46 5.46 0 0 1 1.055.209A3.603 3.603 0 0 1 9.83 2.617a4.593 4.593 0 0 0 4.31 5.744 3.576 3.576 0 0 1-2.241.634c.162.317.295.652.394 1a4.59 4.59 0 0 0 3.624-2.04.5.5 0 0 0-.565-.755 3.593 3.593 0 0 1-4.065-5.422z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <h2 class="tw-title-font tw-font-medium tw-text-3xl tw-text-gray-900">786+</h2>
+                                <p class="tw-leading-relaxed">Awwwards Winning</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
+        </section>
 
-            <section class="section2"></section>
-              <div class="container tw-text-6xl tw-text-white tw-h-screen tw-font-extrabold div-text">
-                <span class="tw-text-xl span2">UNLOCK FRESH PROSPECTS</span> <br class="tw-hidden lg:tw-inline-block" />
-                We are a design agency  <br class="tw-hidden lg:tw-inline-block" />
-                studio delivering custom  <br class="tw-hidden lg:tw-inline-block" />
-                creative & unique websites.
+        <section>
+            <div class="tw-text-center tw-text-7xl max-sm:tw-text-4xl tw-font-bold tw-mt-9">
+                We are a group of
                 <br class="tw-hidden lg:tw-inline-block" />
-                <button class="tw-border-solid tw-bg-red-800 tw-text-white tw-text-2xl tw-p-4 tw-font-medium tw-rounded-xl hover:tw-bg-white hover:tw-text-red-800 hover:border-solid tw-duration-700">Join Us</button>
+                <span class="font-family">innovative</span>, experienced,
+                <br class="tw-hidden lg:tw-inline-block" />
+                and proficient teams.
+            </div>
+        </section>
+
+        <!-- Team-Member  -->
+        <section class="tw-text-gray-600 tw-body-font ">
+            <div class="tw-px-5 tw-py-24 tw-mx-auto tw-flex">
+                <div class="container tw-flex tw-flex-wrap tw--m-4">
+                    <div class="tw-w-72 md:tw-w-1/2 lg:tw-w-1/4 tw-px-4 team">
+                        <div
+                            class="tw-bg-white tw-border-b-blue-600 tw-border-b-2 tw-border-primary tw-shadow-sm tw-overflow-hidden tw-rounded-lg div-team-img">
+                            <div class="tw-h-full tw-flex tw-flex-col tw-items-center">
+                                <img alt="team"
+                                    class="tw-flex-shrink-0 tw-rounded-lg tw-w-72 tw-object-cover tw-object-center tw-mb-4"
+                                    src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/team/team-img-1.jpg">
+                                <div class="tw-w-72 tw-ml-16">
+                                    <h2 class="tw-title-font tw-font-medium tw-text-xl tw-text-gray-900">Flora Nyra</h2>
+                                    <h3 class="tw-text-gray-500 tw-mb-3 tw-font-light tw-text-xl">Product Manager</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tw-w-72 md:tw-w-1/2 lg:tw-w-1/4 tw-px-4 tw-mb-7 team">
+                        <div
+                            class="tw-bg-white tw-border-b-blue-600 tw-border-b-2  tw-border-primary tw-shadow-sm tw-overflow-hidden tw-rounded-lg">
+                            <div class="tw-h-full tw-flex tw-flex-col tw-items-center">
+                                <img alt="team"
+                                    class="tw-flex-shrink-0 tw-rounded-lg tw-w-72 tw-object-cover tw-object-center tw-mb-4"
+                                    src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/team/team-img-2.jpg">
+                                <div class="tw-w-72 tw-ml-16">
+                                    <h2 class="tw-title-font tw-font-medium tw-text-lg tw-text-gray-900">Evander Mac
+                                    </h2>
+                                    <h3 class="tw-text-gray-500 tw-mb-3 tw-font-light tw-text-xl">Art Director</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tw-w-72 md:tw-w-1/2 lg:tw-w-1/4 tw-px-4 tw-mb-7 team">
+                        <div
+                            class="tw-bg-white tw-border-b-blue-600 tw-border-b-2  tw-border-primary tw-shadow-sm tw-overflow-hidden tw-rounded-lg">
+                            <div class="tw-h-full tw-flex tw-flex-col tw-items-center">
+                                <img alt="team"
+                                    class="tw-flex-shrink-0 tw-rounded-lg tw-w-72 tw-object-cover tw-object-center tw-mb-4"
+                                    src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/team/team-img-3.jpg">
+                                <div class="tw-w-72 tw-ml-16">
+                                    <h2 class="tw-title-font tw-font-medium tw-text-lg tw-text-gray-900">Taytum Elia
+                                    </h2>
+                                    <h3 class="tw-text-gray-500 tw-mb-3 tw-font-light tw-text-xl">Investment Planner
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tw-w-72 md:tw-w-1/2 lg:tw-w-1/4 tw-px-4 tw-mb-7 team">
+                        <div
+                            class="tw-bg-white tw-border-b-blue-600 tw-border-b-2  tw-border-primary tw-shadow-sm tw-overflow-hidden tw-rounded-lg">
+                            <div class="tw-p-0 tw-h-full tw-flex tw-flex-col tw-items-center">
+                                <img alt="team"
+                                    class="tw-flex-shrink-0 tw-rounded-lg tw-w-72 tw-object-cover tw-object-center tw-mb-4"
+                                    src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/team/team-img-4.jpg">
+                                <div class="tw-w-72 tw-ml-16">
+                                    <h2 class="tw-title-font tw-font-medium tw-text-lg tw-text-gray-900">Wylder Elio
+                                    </h2>
+                                    <h3 class="tw-text-gray-500 tw-mb-3 tw-font-light tw-text-xl">Financial Analyst</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tw-body-font tw-overflow-hidden tw-bg-pink-100 div-height">
+            <div class="tw-text-7xl tw-font-bold tw-mt-28 tw-ml-28">
+                <div>
+                    Our
+                    <br>
+                    <span class="font-family" style="font-size:60px;">Pricing</span>
+
+                    <p class="tw-text-xl tw-font-medium tw-mt-5">Explore our flexible pricing to
+                        <br>
+                        find an excellent fit to run
+                        <br>
+                        your business.
+                    </p>
+
+                    <button
+                        class="tw-flex tw-items-center tw-text-white tw-bg-blue-700 tw-text-center tw-border-0 tw-py-4 tw-px-4 tw-w-36 tw-focus:outline-none tw-rounded-full tw-text-xl tw-mt-5">More
+                        Plan
+                    </button>
+                </div>
+            </div>
+
+            <div class="container tw-px-5 tw-py-24 tw-mx-auto div-ml2 div-price-mt">
+                <div class="tw-flex tw-flex-wrap tw--m-4">
+                    <div class="tw-p-4 tw-xl:w-1/4 tw-md:w-1/2 tw-w-96 tw-rounded-lg div-price">
+                        <div
+                            class="tw-h-full tw-p-6 tw-rounded-lg tw-bg-white tw-flex tw-flex-col tw-relative tw-overflow-hidden">
+                            <h2 class=" tw-text-2xl tw-tracking-widest tw-title-font tw-mb-1  tw-font-bold">Starter</h2>
+                            <h1 class="tw-text-6xl tw-text-blue-700 tw-pb-4 tw-mb-4 tw-border-gray-200 tw-leading-none">
+                                $45</h1>
+                            <h4 class="tw-text-gray-400 tw-font-light -tw-mt-4">USD / Month</h4>
+
+                            <p class="tw-flex tw-items-center tw-text-black tw-mb-2 tw-mt-6">
+                                <span
+                                    class="tw-w-6 tw-h-4 tw-mr-2 tw-inline-flex tw-items-center tw-justify-center tw-text-white tw-rounded-full tw-flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black"
+                                        class="bi bi-check" viewBox="0 0 16 16">
+                                        <path
+                                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z">
+                                        </path>
+                                    </svg>
+                                </span><b class="tw-font-bold">5</b> &nbsp;Bootstrap Install
+                            </p>
+                            <p class="tw-border-b"></p>
+                            <p class="tw-flex tw-items-center tw-text-black tw-mb-2">
+                                <span
+                                    class="tw-w-6 tw-h-4 tw-mr-2 tw-inline-flex tw-items-center tw-justify-center tw-text-white tw-rounded-full tw-flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black"
+                                        class="bi bi-check" viewBox="0 0 16 16">
+                                        <path
+                                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z">
+                                        </path>
+                                    </svg>
+                                </span><b class="tw-font-bold">100,000</b>&nbsp;visits
+                            </p>
+                            <p class="tw-border-b"></p>
+                            <p class="tw-flex tw-items-center tw-text-black tw-mb-6">
+                                <span
+                                    class="tw-w-6 tw-h-4 tw-mr-2 tw-inline-flex tw-items-center tw-justify-center tw-text-white tw-rounded-full tw-flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black"
+                                        class="bi bi-check" viewBox="0 0 16 16">
+                                        <path
+                                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z">
+                                        </path>
+                                    </svg>
+                                </span><b class="tw-font-bold">30 GB</b>&nbsp; Disk Space
+                            </p>
+                            <p class="tw-border-b"></p>
+                            <p class="tw-flex tw-items-center tw-text-black tw-mb-6">
+                                <span
+                                    class="tw-w-6 tw-h-4 tw-mr-2 tw-inline-flex tw-items-center tw-justify-center tw-text-white tw-rounded-full tw-flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                        class="bi bi-x text-danger" viewBox="0 0 16 16">
+                                        <path
+                                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z">
+                                        </path>
+                                    </svg>
+                                </span>Free <b class="tw-ml-2 tw-font-bold">SSL and CDn</b>
+                            </p>
+
+                            <p class="tw-border-b"></p>
+                            <p class="tw-flex tw-items-center tw-text-black tw-mb-6">
+                                <span
+                                    class="tw-w-6 tw-h-4 tw-mr-2 tw-inline-flex tw-items-center tw-justify-center tw-text-white tw-rounded-full tw-flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                        class="bi bi-x text-danger" viewBox="0 0 16 16">
+                                        <path
+                                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z">
+                                        </path>
+                                    </svg>
+                                </span>Free <b class="tw-ml-2 tw-font-bold">Support</b>
+                            </p>
+                            <button
+                                class="tw-flex tw-items-center tw-mt-auto tw-text-white tw-bg-red-600 tw-border-0 tw-py-4 tw-px-4 tw-w-40 tw-text-center tw-focus:outline-none  tw-rounded-full tw-text-xl">Choose
+                                Plan
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div class="tw-p-4 tw-xl:w-1/4 tw-bg-white tw-rounded-lg tw-md:w-1/2 div-boxshadow tw-w-96 div-price">
+                        <div class="tw-h-full tw-p-6 tw-rounded-lg tw-flex tw-flex-col tw-relative tw-overflow-hidden">
+                            <h2 class="tw-text-1xl tw-tracking-widest tw-title-font tw-mb-1 tw-font-bold">PRO</h2>
+                            <h1
+                                class="tw-text-6xl tw-text-blue-700 tw-leading-none tw-flex tw-items-center tw-pb-4 tw-mb-4">
+                                <span>$149</span>
+                            </h1>
+                            <h4 class="tw-text-gray-400 tw-font-light -tw-mt-4">USD / Month</h4>
+                            <p class="tw-flex tw-items-center tw-text-black tw-mb-2 tw-mt-6">
+                                <span
+                                    class="tw-w-6 tw-h-4 tw-mr-2 tw-inline-flex tw-items-center tw-justify-center tw-text-white tw-rounded-full tw-flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black"
+                                        class="bi bi-check" viewBox="0 0 16 16">
+                                        <path
+                                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z">
+                                        </path>
+                                    </svg>
+                                </span><b class="tw-font-bold">20</b> &nbsp;Bootstrap Install
+                            </p>
+                            <p class="tw-border-b"></p>
+
+                            <p class="tw-flex tw-items-center tw-text-black tw-mb-2">
+                                <span
+                                    class="tw-w-6 tw-h-4 tw-mr-2 tw-inline-flex tw-items-center tw-justify-center tw-text-white tw-rounded-full tw-flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black"
+                                        class="bi bi-check" viewBox="0 0 16 16">
+                                        <path
+                                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z">
+                                        </path>
+                                    </svg>
+                                </span><b class="tw-font-bold">400,000</b>&nbsp;visits
+                            </p>
+                            <p class="tw-border-b"></p>
+
+                            <p class="tw-flex tw-items-center tw-text-black tw-mb-6">
+                                <span
+                                    class="tw-w-6 tw-h-4 tw-mr-2 tw-inline-flex tw-items-center tw-justify-center tw-text-white tw-rounded-full tw-flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black"
+                                        class="bi bi-check" viewBox="0 0 16 16">
+                                        <path
+                                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z">
+                                        </path>
+                                    </svg>
+                                </span><b class="tw-font-bold">50 GB</b>&nbsp; Disk Space
+                            </p>
+                            <p class="tw-border-b"></p>
+
+                            <p class="tw-flex tw-items-center tw-text-black tw-mb-6">
+                                <span
+                                    class="tw-w-6 tw-h-4 tw-mr-2 tw-inline-flex tw-items-center tw-justify-center tw-text-white tw-rounded-full tw-flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                        class="bi bi-x text-danger" viewBox="0 0 16 16">
+                                        <path
+                                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z">
+                                        </path>
+                                    </svg>
+                                </span>Free <b class="tw-ml-2 tw-font-bold">SSL and CDn</b>
+                            </p>
+                            <p class="tw-border-b"></p>
+
+                            <p class="tw-flex tw-items-center tw-text-black tw-mb-6">
+                                <span
+                                    class="tw-w-6 tw-h-4 tw-mr-2 tw-inline-flex tw-items-center tw-justify-center tw-text-white tw-rounded-full tw-flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                        class="bi bi-x text-danger" viewBox="0 0 16 16">
+                                        <path
+                                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z">
+                                        </path>
+                                    </svg>
+                                </span>Free <b class="tw-ml-2 tw-font-bold">Support</b>
+                            </p>
+                            <button
+                                class="tw-flex tw-items-center tw-mt-auto tw-text-white tw-bg-red-600 tw-border-0 tw-py-4 tw-px-4 tw-w-40 tw-focus:outline-none  tw-rounded-full tw-text-xl">Choose
+                                Plan
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="tw-text-center tw-font-bold tw-text-6xl tw-pt-8 max-md:tw-text-xl">
+                We believe in client
+                <br class="tw-hidden lg:tw-inline-block" />
+                <span class="font-family max-md:tw-text-xl" style="font-size:40px;">satisfaction</span>. Here are
+                <br class="tw-hidden lg:tw-inline-block" />
+                some testimonials by our
+                <br class="tw-hidden lg:tw-inline-block" />
+                worthy clients.
+            </div>
+        </section>
+
+        <section class="tw-text-gray-600 tw-body-font">
+            <div class="tw-container tw-px-5 tw-py-24 tw-mx-auto">
+              <div class="tw-flex tw-flex-wrap tw--m-4">
+                <div class="lg:tw-w-1/3 lg:tw-mb-0 tw-mb-6 tw-p-4">
+                  <div class="tw-h-full">
+                    <img alt="testimonial" class="tw-w-20 tw-h-20 tw-mb-8 tw-object-cover tw-object-center tw-rounded-full tw-inline-block tw-border-2 tw-border-gray-200 tw-bg-gray-100" src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/testimonial/testimonial-img-1.jpg">
+                    <p class="tw-leading-relaxed">We were so impressed with the work they did for us. They were able to take our vision and turn it into a reality, and they did it all on time and within budget. We would highly recommend them to anyone looking for a reliable partner.</p>
+                    <h2 class="tw-text-gray-900 tw-font-bold tw-title-font tw-tracking-wider tw-text-xl">Luna
+                        John</h2>
+                    <p class="tw-text-gray-500">UX Designer</p>
+                  </div>
+                </div>
+
+                <div class="lg:tw-w-1/3 lg:tw-mb-0 tw-mb-6 tw-p-4">
+                  <div class="tw-h-full">
+                    <img alt="testimonial" class="tw-w-20 tw-h-20 tw-mb-8 tw-object-cover tw-object-center tw-rounded-full tw-inline-block tw-border-2 tw-border-gray-200 tw-bg-gray-100" src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/testimonial/testimonial-img-2.jpg">
+                    <p class="tw-leading-relaxed">We were looking for a company that could help us develop a new website that was both visually appealing and user-friendly. We are so happy with the results, and we would highly recommend them to anyone looking for a new website.</p>
+                    <h2 class="tw-text-gray-900 tw-title-font tw-tracking-wider tw-text-xl tw-font-bold">Mark Smith</h2>
+                    <p class="tw-text-gray-500">Marketing Specialist</p>
+                  </div>
+                </div>
+                <div class="lg:tw-w-1/3 lg:tw-mb-0 tw-p-4">
+                  <div class="tw-h-full">
+                    <img alt="testimonial" class="tw-w-20 tw-h-20 tw-mb-8 tw-object-cover tw-object-center tw-rounded-full tw-inline-block tw-border-2 tw-border-gray-200 tw-bg-gray-100" src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/testimonial/testimonial-img-4.jpg">
+                    <p class="tw-leading-relaxed">We were looking for a company that could help us with our branding. We needed a website and marketing materials. They were able to create a brand identity that we loved. They worked with us to develop a logo that represented our company.</p>
+                    <h2 class="tw-text-gray-900 tw-title-font tw-tracking-wider tw-text-xl tw-font-bold">Luke Reeves</h2>
+                    <p class="tw-text-gray-500">Sales Manager</p>
+                  </div>
+                </div>
               </div>
-              
-            
+            </div>
+        </section>
+
+        <!-- <section class="tw-py-5 tw-body-font tw-row tw-col">
+            <div class="tw-container tw-overflow-hidden">
+              <div class="tw-row">
+                <div class="tw-col-12 tw-col-md-4 tw-w-72 tw-border-2 tw-rounded-xl">
+                  <div class="tw-card tw-border-0 tw-border-bottom tw-border-primary tw-shadow-sm">
+                    <div class="tw-card-body tw-p-4 tw-p-xxl-5">
+                      <div>
+                        <img class="tw-img-fluid tw-rounded-full tw-mb-4 tw-border tw-border-5" loading="lazy" src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/testimonial/testimonial-img-1.jpg" alt="Luna John">
+
+                          <div class="tw-bsb-ratings tw-text-warning tw-mb-3" data-bsb-star="5" data-bsb-star-off="0"></div>
+                          <blockquote class="tw-bsb-blockquote-icon tw-mb-4">We were so impressed with the work they did for us. They were able to take our vision and turn it into a reality, and they did it all on time and within budget. We would highly recommend them to anyone looking for a reliable partner.</blockquote>
+                          <h4 class="tw-mb-2">Luna John</h4>
+                          <h5 class="tw-fs-6 tw-text-secondary tw-mb-0">UX Designer</h5>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tw-col-12 tw-col-md-4 tw-w-72 tw-border-2 tw-rounded-xl">
+                  <div class="tw-border-0 tw-border-bottom tw-border-primary tw-shadow-sm">
+                    <div class="tw-p-4">
+                      <div>
+                        <img class="tw-img-fluid tw-rounded-full tw-mb-4 tw-border tw-border-5" loading="lazy" src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/testimonial/testimonial-img-2.jpg" alt="Mark Smith">
+
+                          <blockquote class="tw-bsb-blockquote-icon tw-mb-4">We were looking for a company that could help us develop a new website that was both visually appealing and user-friendly. We are so happy with the results, and we would highly recommend them to anyone looking for a new website.</blockquote>
+                          <h4 class="tw-mb-2">Mark Smith</h4>
+                          <h5 class="tw-fs-6 tw-text-secondary tw-mb-0">Marketing Specialist</h5>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tw-col-12 tw-col-md-4 tw-w-72 tw-border-2 tw-rounded-xl">
+                  <div class="tw-card tw-border-0 tw-border-bottom tw-border-primary tw-shadow-sm">
+                    <div class="tw-card-body tw-p-4 tw-p-xxl-5">
+                      <div>
+                        <img class="tw-img-fluid tw-rounded-full tw-mb-4 tw-border tw-border-5" loading="lazy" src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/testimonial/testimonial-img-4.jpg" alt="Luke Reeves">
+                          <div class="tw-bsb-ratings tw-text-warning tw-mb-3" data-bsb-star="5" data-bsb-star-off="0"></div>
+                          <blockquote class="tw-bsb-blockquote-icon tw-mb-4">We were looking for a company that could help us with our branding. We needed a website and marketing materials. They were able to create a brand identity that we loved. They worked with us to develop a logo that represented our company.</blockquote>
+                          <h4 class="tw-mb-2">Luke Reeves</h4>
+                          <h5 class="tw-fs-6 tw-text-secondary tw-mb-0">Sales Manager</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section> -->
+         
+        <section class="tw-bg-pink-50 tw-h-full">
+           <div class="">
+            <div class="tw-ml-44 tw-pt-60">
+                <h3 class="tw-text-7xl">Our <span class="font-family">Blog</span></h3>
+                <p class="">Stay tuned and updated by the 
+                    <br>
+                    latest updates from our blog.</p>
+                <button class="tw-border-2 tw-rounded-full tw-bg-blue-800 tw-text-xl tw-text-white tw-w-36 tw-p-4">More Plans</button>
+            </div>
+
+            <div>
+                <div class="custom-div-ml">
+                    <img src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/blog/blog-image-1.jpg" alt="" class="tw-h-52 tw-w-72 tw-rounded-lg">
+                    <div>
+                        <h5 class="tw-text-gray-400 tw-text-1xl">Business</h5>
+                        <p class="tw-font-bold tw-text-1xl">How to Improve Your Project <br>Management Skills</p>
+                    </div>
+                    <div class="tw-flex tw-flex-col">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="gray" class="bi bi-calendar3" viewBox="0 0 16 16">
+                            <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"></path>
+                            <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
+                          </svg>
+                          <div class="tw-flex tw-row tw-px-4 -tw-mt-5">
+                           <span class="tw-text-gray-400">7 Feb 2023</span>
+                           <span class="tw-px-4 tw-text-5xl -tw-mt-7">.</span>
+                           <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="gray" class="bi bi-chat-dots tw-mt-1" viewBox="0 0 16 16">
+                            <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
+                            <path d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z"></path>
+                          </svg>
+                          <span class="tw-text-gray-400 tw-ml-2">55</span>
+                          </div>
+                    </div>
+                </div>
+
+                <div class="custom-div-ml2">
+                    <img src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/blog/blog-image-2.jpg" alt="" class="tw-h-52 tw-w-72 tw-rounded-lg">
+                    <div>
+                        <h5 class="tw-text-gray-400 tw-text-1xl">Technology</h5>
+                        <p class="tw-font-bold tw-text-1xl">Modern Cybersecurity Trends to <br> Watch in 2023</p>
+                    </div>
+                    <div class="tw-flex tw-flex-col">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="gray" class="bi bi-calendar3" viewBox="0 0 16 16">
+                            <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"></path>
+                            <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
+                          </svg>
+                          <div class="tw-flex tw-row tw-px-4 -tw-mt-5">
+                           <span class="tw-text-gray-400">12 Aug 2023</span>
+                           <span class="tw-px-4 tw-text-5xl -tw-mt-7">.</span>
+                           <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="gray" class="bi bi-chat-dots tw-mt-1" viewBox="0 0 16 16">
+                            <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
+                            <path d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z"></path>
+                          </svg>
+                          <span class="tw-text-gray-400 tw-ml-2">39</span>
+                          </div>
+                    </div>
+                </div>
+
+                <div class="custom-div-ml3">
+                    <img src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/blog/blog-image-3.jpg" alt="" class="tw-h-52 tw-w-72 tw-rounded-lg">
+                    <div>
+                        <h5 class="tw-text-gray-400 tw-text-1xl">Health</h5>
+                        <p class="tw-font-bold tw-text-1xl">Health Care Job Growth Outpaces <br>Other Industries</p>
+                    </div>
+                    <div class="tw-flex tw-flex-col">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="gray" class="bi bi-calendar3" viewBox="0 0 16 16">
+                            <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"></path>
+                            <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
+                          </svg>
+                          <div class="tw-flex tw-row tw-px-4 -tw-mt-5">
+                           <span class="tw-text-gray-400">21 Dec 2023</span>
+                           <span class="tw-px-4 tw-text-5xl -tw-mt-7">.</span>
+                           <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="gray" class="bi bi-chat-dots tw-mt-1" viewBox="0 0 16 16">
+                            <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
+                            <path d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z"></path>
+                          </svg>
+                          <span class="tw-text-gray-400 tw-ml-2">61</span>
+                          </div>
+                    </div>
+                </div>
+
+                <div class="custom-div-ml4">
+                    <img src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/blog/blog-image-4.jpg" alt="" class="tw-h-52 tw-w-72 tw-rounded-lg">
+                    <div>
+                        <h5 class="tw-text-gray-400 tw-text-1xl">Networking</h5>
+                        <p class="tw-font-bold tw-text-1xl">Five Essential Network Security <br> Trends to Watch</p>
+                    </div>
+                    <div class="tw-flex tw-flex-col">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="gray" class="bi bi-calendar3" viewBox="0 0 16 16">
+                            <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"></path>
+                            <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
+                          </svg>
+                          <div class="tw-flex tw-row tw-px-4 -tw-mt-5">
+                           <span class="tw-text-gray-400">21 Feb 2023</span>
+                           <span class="tw-px-4 tw-text-5xl -tw-mt-7">.</span>
+                           <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="gray" class="bi bi-chat-dots tw-mt-1" viewBox="0 0 16 16">
+                            <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
+                            <path d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z"></path>
+                          </svg>
+                          <span class="tw-text-gray-400 tw-ml-2">61</span>
+                          </div>
+                    </div>
+                </div>
+
+            </div>
+           </div>
+        </section>
+
+        <section class="tw-text-gray-600 tw-body-font">
+            <div class="tw-container tw-mx-auto tw-flex tw-px-5 tw-py-24 md:tw-flex-row tw-flex-col tw-items-center">
+              <div class="lg:tw-max-w-lg lg:tw-w-full md:tw-w-1/2 tw-w-5/6 tw-mb-10 md:tw-mb-0">
+                <img class="tw-object-cover tw-object-center tw-rounded" alt="hero" src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/contact/contact-img-1.jpg">
+              </div>
+              <div class="lg:tw-flex-grow md:tw-w-1/2 lg:tw-pl-24 md:tw-pl-16 tw-flex tw-flex-col md:tw-items-start md:tw-text-left tw-items-center tw-text-center">
+                <h1 class="tw-title-font tw-sm:text-4xl tw-text-4xl tw-mb-4 tw-font-bold tw-text-gray-900 -tw-mt-50">Get in touch</h1>
+                <p class="tw-mb-8 tw-leading-relaxed tw-text-2xl">We're always on the lookout to work with new <br> clients. If you're interested in working with us, <br> please get in touch in one of the following ways.</p>
+                <div class="tw-flex tw-justify-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="blue" class="bi bi-geo" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"></path>
+                  </svg>
+                  <div class="-tw-mt-4 tw-ml-10">
+                    <h1 class="tw-text-black">Address</h1>
+                    <p class="tw-text-gray">8014 Edith Blvd NE, Albuquerque, New York, United States</p>
+                  </div>
+                </div>
+                <br>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="blue" class="bi bi-telephone-outbound" viewBox="0 0 16 16">
+                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"></path>
+                </svg>
+                <div class="tw-ml-16 -tw-mt-10">
+                    <h1 class="tw-text-black">Phone</h1>
+                    <p class="tw-text-gray">(505) 792-2430</p>
+                </div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="blue" class="bi bi-envelope-at" viewBox="0 0 16 16">
+                    <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"></path>
+                    <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"></path>
+                  </svg>
+                  <div class="tw-ml-16 -tw-mt-10">
+                    <h1 class="tw-text-black">Email</h1>
+                    <p class="tw-text-gray">demo@yourdomain.com</p>
+                  </div>
+              </div>
+            </div>
+          </section>          
     </main>
+
+    <footer class="tw-text-gray-600 tw-body-font tw-bg-blue-50">
+        <div class="tw-container tw-px-5 tw-py-24 tw-mx-auto">
+          <div class="tw-flex tw-flex-wrap md:tw-text-left tw-text-center tw-order-first">
+            <div>
+                <img src="https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/branding/wave-logo.svg" alt="">
+            </div>
+            <div class="lg:tw-w-1/4 md:tw-w-1/2 tw-w-full tw-px-4 tw-ml-20">
+              <h2 class="tw-title-font tw-font-bold tw-text-gray-900 tw-tracking-widest tw-text-xl tw-mb-3">Get in Touch</h2>
+              <nav class="tw-list-none tw-mb-10">
+                <li>
+                  <a class="tw-text-gray-600">8014 Edith Blvd NE, 
+                    <br>
+                    Albuquerque, New 
+                    <br>
+                    York, United States</a>
+                </li>
+                <li>
+                  <a class="tw-text-gray-600 tw-hover:text-gray-800"></a>
+                </li>
+                <br>
+                <li>
+                  <a class="tw-text-gray-600 tw-hover:text-gray-800">(505) 792-2430</a>
+                </li>
+                <li>
+                  <a class="tw-text-gray-600 tw-hover:text-gray-800">demo@yourdomain.com</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:tw-w-1/4 md:tw-w-1/2 tw-w-full tw-px-4">
+              <h2 class="tw-title-font tw-font-bold tw-text-gray-900 tw-tracking-widest tw-text-xl tw-mb-3">Learn More</h2>
+              <nav class="tw-list-none tw-mb-10 tw-px-2 tw-py-2">
+                <li>
+                  <a class="tw-text-gray-600 tw-hover:text-gray-800">About</a>
+                </li>
+                <li>
+                  <a class="tw-text-gray-600 tw-hover:text-gray-800">Contact</a>
+                </li>
+                <li>
+                  <a class="tw-text-gray-600 tw-hover:text-gray-800">Advertise</a>
+                </li>
+                <li>
+                  <a class="tw-text-gray-600 tw-hover:text-gray-800">Terms of Policy</a>
+                </li>
+                <li>
+                    <a class="tw-text-gray-600 tw-hover:text-gray-800">Privacy Policy</a>
+                  </li>
+              </nav>
+            </div>
+            <div class="lg:tw-w-1/4 md:tw-w-1/2 tw-w-full tw-px-4">
+              <h2 class="tw-title-font tw-font-bold tw-text-gray-900 tw-tracking-widest tw-text-xl tw-mb-3">Our Newsletter</h2>
+              <div class="tw-flex xl:tw-flex-nowrap md:tw-flex-nowrap lg:tw-flex-wrap tw-flex-wrap tw-justify-center tw-items-end md:tw-justify-start">
+                <div class="tw-relative tw-w-40 sm:tw-w-auto xl:tw-mr-4 lg:tw-mr-0 sm:tw-mr-4 tw-mr-2">
+                  <label for="footer-field" class="tw-leading-7 tw-text-sm tw-text-gray-600 tw-w-72">Subscribe to our newsletter to get our news & <br>discounts delivered to you.</label>
+                  <input type="text" id="footer-field" name="footer-field" class="tw-w-full tw-bg-gray-100 tw-bg-opacity-50 tw-rounded tw-border tw-border-gray-300 focus:tw-bg-transparent focus:tw-ring-2 focus:tw-ring-indigo-200 focus:tw-border-indigo-500 tw-text-base tw-outline-none tw-text-gray-700 tw-py-1 tw-px-3 tw-leading-8 tw-transition-colors tw-duration-200 tw-ease-in-out tw-h-9">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="black" class="bi bi-envelope -tw-mt-8 tw-ml-2" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"></path>
+                  </svg>
+                  <svg height="35" width="5" xmlns="http://www.w3.org/2000/svg" class="-tw-mt-7 tw-ml-10">
+                    <line x1="0" y1="0" x2="0" y2="200" style="stroke:rgba(72, 69, 69, 0.357);stroke-width:4"/>
+                  </svg>
+                </div>
+                <br class="lg:tw-block tw-hidden">
+                <button class="lg:tw-mt-2 xl:tw-mt-0 tw-flex-shrink-0 tw-inline-flex tw-text-white tw-bg-indigo-500 tw-border-0 tw-py-2 tw-px-6 tw-focus:outline-none tw-hover:bg-indigo-600 tw-rounded">Button</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tw-bg-gray-100">
+          <div class="tw-container tw-px-5 tw-py-6 tw-mx-auto tw-flex tw-items-center sm:tw-flex-row tw-flex-col">
+            <p class="tw-text-sm tw-text-gray-500 sm:tw-ml-6 sm:tw-mt-0 tw-mt-4">&copy; 2023. All Rights Reserved.</p>
+            <br class="lg:tw-block tw-hidden">
+            <p class="tw-text-sm tw-text-gray-500 sm:tw-ml-6 sm:tw-mt-0">Built by BootstrapBrain with ♥</p>
+            <span class="tw-inline-flex sm:tw-ml-auto sm:tw-mt-0 tw-mt-4 tw-justify-center sm:tw-justify-start">
+              <a class="tw-text-gray-500 tw-bg-black tw-rounded-2xl tw-px-1 tw-py-1">
+                <svg fill="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="tw-w-5 tw-h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="tw-ml-3 tw-text-gray-500 tw-bg-black tw-rounded-2xl tw-px-1 tw-py-1">
+                <svg fill="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="tw-w-5 tw-h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="tw-ml-3 tw-text-gray-500 tw-bg-black tw-rounded-2xl tw-px-1 tw-py-1">
+                <svg fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="tw-w-5 tw-h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+              </a>
+              <a class="tw-ml-3 tw-text-gray-500 tw-bg-black tw-rounded-2xl tw-px-1 tw-py-1">
+                <svg fill="white" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="tw-w-5 tw-h-5" viewBox="0 0 24 24">
+                  <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+    </footer>      
 </body>
+
 </html>
