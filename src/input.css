@@ -134,8 +134,9 @@ body{
         width: 20rem;
     }
     .accordion{
-        margin-left:430px;
-        max-width: 500px;
+        margin-left:350px !important;
+        max-width:800px !important;
+        /* width:800px; */
     }
     .div-text{
         margin-top: -27rem;
